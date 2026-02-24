@@ -80,27 +80,6 @@ function App() {
 
   return (
     <>
-      <button
-        onClick={() => {
-          onCreate(new Date().getTime(), 1, "test");
-        }}
-      >
-        Create test
-      </button>
-      <button
-        onClick={() => {
-          onUpdate(1, new Date().getTime(), 3, "test");
-        }}
-      >
-        Update test
-      </button>
-      <button
-        onClick={() => {
-          onDelete(1);
-        }}
-      >
-        Delete test
-      </button>
       <DiaryStateContext.Provider value={data}>
         <DiaryDispatchContext.Provider value={{ onCreate, onUpdate, onDelete }}>
           <Routes>
