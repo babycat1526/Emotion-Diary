@@ -10,19 +10,19 @@ import Notfound from "./pages/Notfound";
 const mockData = [
   {
     id: 1,
-    createdDate: new Date("2026-02-24").getTime(),
+    createdDate: new Date("2026-03-10").getTime(),
     emotionId: 1,
     content: "1번 일기 입니다.",
   },
   {
     id: 2,
-    createdDate: new Date("2026-02-23").getTime(),
+    createdDate: new Date("2026-03-09").getTime(),
     emotionId: 2,
     content: "2번 일기 입니다.",
   },
   {
     id: 3,
-    createdDate: new Date("2026-01-07").getTime(),
+    createdDate: new Date("2026-02-14").getTime(),
     emotionId: 3,
     content: "3번 일기 입니다.",
   },
